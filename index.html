@@ -151,7 +151,7 @@
 					else {
 					$("#ddlDiameter").removeAttr("disabled");
 					$.each(data, function(k, value){
-						$("#ddlDiameter").append("<option>"+ value.diameter+"</option>");
+						$("#ddlDiameter").append("<option>"+ value.flangeDiameter+"</option>");
 					});
 					
 						
@@ -179,18 +179,22 @@
 				
 				$.getJSON(cwf, function(data) {
 					$.each(data, function(i, item) {
-					    if (item.diameter == currDiameter) {
+					    if (item.flangeDiameter == currDiameter) {
 					    
 					    	/* The objects is found within the list and displayed to the user */
 					        
 					        if(item.tool == null) {
-						        console.log("No tools available");
+						       alert(' Flange diameter: '+ item.flangeDiameter+'\n Ring type: '+ item.ringType+' \n Bolts: '+ item.bolts+' \n Bolt diameter: '+ item.boltDiameter+' \n Across flat: '+ item.acrossFlat+' \n Torque: '+ item.torque + '\n \n Manual tool!');
 					        }
 					        
 					        else {
 						        console.log('Tool available');
 						        console.log(item);
+						        
+						        alert(' Flange diameter: '+ item.flangeDiameter+'\n Ring type: '+ item.ringType+' \n Bolts: '+ item.bolts+' \n Bolt diameter: '+ item.boltDiameter+' \n Across flat: '+ item.acrossFlat+' \n Torque: '+ item.torque + '\n \n Tool name: ' + item.tool[0].name + '\n Tool pressure: ' + item.tool[0].pressure);
 					        }
+					        
+					        
 					        
 					        
 					    }
