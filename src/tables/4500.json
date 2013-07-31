@@ -1,0 +1,248 @@
+[
+	{
+		"flangeDiameter": "0,5",
+		"ringType": "IX0.5",
+		"bolts": "4",
+		"boltDiameter": "1/2",
+		"acrossFlat": "7/8",
+		"torque": "92"
+	},
+	
+	{
+		"flangeDiameter": "0,75",
+		"ringType": "IX0.75",
+		"bolts": "4",
+		"boltDiameter": "1/2",
+		"acrossFlat": "7/8",
+		"torque": "92"
+	},
+	
+	{
+		"flangeDiameter": "1",
+		"ringType": "IX1",
+		"bolts": "8",
+		"boltDiameter": "1/2",
+		"acrossFlat": "7/8",
+		"torque": "92"
+	},
+	
+	{
+		"flangeDiameter": "1,5",
+		"ringType": "IX1.5",
+		"bolts": "8",
+		"boltDiameter": "5/8",
+		"acrossFlat": "1 1/16",
+		"torque": "183"
+	},
+	
+	{
+		"flangeDiameter": "2",
+		"ringType": "IX2",
+		"bolts": "8",
+		"boltDiameter": "5/8",
+		"acrossFlat": "1 1/16",
+		"torque": "183"
+	},
+	
+	{
+		"flangeDiameter": "2,5",
+		"ringType": "IX2.5",
+		"bolts": "8",
+		"boltDiameter": "3/4",
+		"acrossFlat": "1 1/4",
+		"torque": "323"
+	},
+
+	{
+		"flangeDiameter": "3",
+		"ringType": "IX3",
+		"bolts": "8",
+		"boltDiameter": "7/8",
+		"acrossFlat": "1 7/16",
+		"torque": "517"
+	},
+	
+	{
+		"flangeDiameter": "4",
+		"ringType": "IX4",
+		"bolts": "12",
+		"boltDiameter": "7/8",
+		"acrossFlat": "1 7/16",
+		"torque": "517",
+		"tool": [
+					{ 
+						"name": "Stealth 2",
+						"pressure": "2319"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "5",
+		"ringType": "IX5",
+		"bolts": "12",
+		"boltDiameter": "1 1/8",
+		"acrossFlat": "1 13/16",
+		"torque": "1133",
+		"tool": [
+					{ 
+						"name": "Stealth 2",
+						"pressure": "4837"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "6",
+		"ringType": "IX6",
+		"bolts": "12",
+		"boltDiameter": "1 1/4",
+		"acrossFlat": "2",
+		"torque": "1588",
+		"tool": [
+					{ 
+						"name": "Stealth 2",
+						"pressure": "6692"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "8",
+		"ringType": "IX8",
+		"bolts": "12",
+		"boltDiameter": "1 1/2",
+		"acrossFlat": "2 3/8",
+		"torque": "2840",
+		"tool": [
+					{ 
+						"name": "Stealth 4",
+						"pressure": "5249"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "10",
+		"ringType": "IX10",
+		"bolts": "16",
+		"boltDiameter": "1 7/8",
+		"acrossFlat": "2 15/16",
+		"torque": "5731",
+		"tool": [
+					{ 
+						"name": "Stealth 8",
+						"pressure": "5268"
+					}
+				]
+
+	},
+
+	{
+		"flangeDiameter": "12",
+		"ringType": "IX12",
+		"bolts": "16",
+		"boltDiameter": "1 7/8",
+		"acrossFlat": "2 15/16",
+		"torque": "5731",
+		"tool": [
+					{ 
+						"name": "Stealth 8",
+						"pressure": "5268"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "14",
+		"ringType": "IX14",
+		"bolts": "16",
+		"boltDiameter": "2",
+		"acrossFlat": "3 1/8",
+		"torque": "7009",
+		"tool": [
+					{ 
+						"name": "Stealth 8",
+						"pressure": "6432"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "16",
+		"ringType": "IX16",
+		"bolts": "16",
+		"boltDiameter": "2 1/4",
+		"acrossFlat": "3 1/2",
+		"torque": "10108",
+		"tool": [
+					{ 
+						"name": "Stealth 14",
+						"pressure": "5259"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "18",
+		"ringType": "IX18",
+		"bolts": "16",
+		"boltDiameter": "2 1/2",
+		"acrossFlat": "3 7/8",
+		"torque": "14002",
+		"tool": [
+					{ 
+						"name": "Stealth 14",
+						"pressure": "7264"
+					}
+				]
+
+	},
+	
+	{
+		"flangeDiameter": "20",
+		"ringType": "IX20",
+		"bolts": "12",
+		"boltDiameter": "3 1/4",
+		"acrossFlat": "5",
+		"torque": "28412",
+		"tool": [
+					{ 
+						"name": "Stealth 36",
+						"pressure": "6090"
+					}
+				]
+	},
+	
+	{
+		"flangeDiameter": "22",
+		"ringType": "IX22",
+		"bolts": "12",
+		"boltDiameter": "3 1/2",
+		"acrossFlat": "5 3/8",
+		"torque": "28412",
+		"tool": [
+					{ 
+						"name": "Stealth 22",
+						"pressure": "7499"
+					}
+				]
+	},
+	
+	{
+		"flangeDiameter": "24",
+		"ringType": "IX24",
+		"bolts": "12",
+		"boltDiameter": "4",
+		"acrossFlat": "6 1/8",
+		"torque": "53633"
+	}
+
+]
