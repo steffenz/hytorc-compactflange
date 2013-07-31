@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kompaktflenskalkulator</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="src/css/styles.css">
+		<link rel="stylesheet" href="src/css/bootstrap.min.css">
+		<script src="src/js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="kontainer">
+		
+		<br/><br/>
+				<div id="kalkulator">
+				
+						
+						<div id="inputArea">
+						
+								<div id="inputAreaForPadding">
+									<h4>Kompaktflenskalkulator</h4>
+			<br/>
+									<select id="ddlRorklasse">
+											<option>Velg trykk/rørklasse</option>
+											<option>150</option>
+											<option>300</option>
+											<option>600</option>
+											<option>900</option>
+											<option>1500</option>
+											<option>2500</option>
+											<option>4500</option>
+											<option>5000</option>
+											<option>10000</option>
+											<option>15000</option>
+									</select>
+									<br/><br/>
+									<select id="ddlDiameter" disabled>
+										<option>Velg rørdiameter</option>
+									</select>
+									<br/><br/>
+									<a href="#" id="btnBeregn" class="btn">Vis utregninger.. </a>
+								</div>
+								
+						</div>
+						
+						<div id="resultsArea">
+						
+					
+						</p>
+							
+							<table class="table" style="width:600px; margin-left:340px; margin-top:100px">
+								<thead>
+								<tr>
+									<th>Verktøy</th>
+									<th>Ring</th>
+									<th>Bolter</th>
+									<th>Diameter</th>
+									<th>Nøkkelvidde</th>
+									<th>Smøring</th>
+									
+								</tr>
+								</thead>
+								
+								<tbody id="resultsTable">
+								<tr>
+									<td>Stealth 2</td>
+									<td>IX48</td>
+									<td>36</td>
+									<td>2 3/8</td>
+									<td>2 3/4</td>
+									<td>Molykote</td>
+									
+									
+								</tr>
+								
+										<tr>
+									<td>XLCT 2</td>
+									<td>IX48</td>
+									<td>36</td>
+									<td>2 3/8</td>
+									<td>2 3/4</td>
+									<td>Molykote</td>
+									
+									
+								</tr>
+								
+										<tr>
+									<td>Manuell</td>
+									<td>IX48</td>
+									<td>36</td>
+									<td>2 3/8</td>
+									<td>2 3/4</td>
+									<td>Molykote</td>
+									
+									
+								</tr>
+								</tbody>
+							</table>
+							
+							
+						
+							<div id="bottomsTabBar">
+							
+							</div>
+						
+						</div>
+				
+				
+				</div>
+		
+			
+		</div>
+		
+		<script>
+		
+		/* When the users selects something */
+		
+		$("#ddlRorklasse").change(function(){
+			
+			// Tømmer gamle resultater
+			
+			$("#ddlDiameter").empty();
+			
+			var verdi = $("#ddlRorklasse option:selected").val();
+			
+			if(verdi != "Velg trykk/rørklasse") {
+				fillDiameterList(verdi);
+				
+				
+			} else {
+				$("#ddlDiameter").attr('disabled', "disabled");
+			}
+			
+		});
+				
+		
+		/* Fills the diameter list with available values */
+		
+		function fillDiameterList(diameter) {
+		
+				var current = $("#ddlRorklasse option:selected").val();
+				var currentLocation = "src/tables/" + current + ".json";
+			
+			
+				
+				$.getJSON(currentLocation, function(data) {
+			
+					if(data == null) {
+						console.log("Requested file could not be found. Fix me");
+					}
+					
+					else {
+					$("#ddlDiameter").removeAttr("disabled");
+					$.each(data, function(k, value){
+						$("#ddlDiameter").append("<option>"+ value.diameter+"</option>");
+					});
+					
+						
+					}
+					
+
+				
+
+				});
+				
+			
+		}
+		
+		
+		
+		
+		/* When user clicks button to calculate */
+		
+		$("#btnBeregn").click(function(){	
+				//$("#loader").fadeIn(200);
+				$("#resultsTable").html("");
+				var currDiameter = $("#ddlDiameter option:selected").val();
+				var currDim = $("#ddlRorklasse option:selected").val();
+				var cwf = "src/tables/" + currDim + ".json";
+				
+				$.getJSON(cwf, function(data) {
+					$.each(data, function(i, item) {
+					    if (item.diameter == currDiameter) {
+					    
+					    	/* The objects is found within the list and displayed to the user */
+					        
+					        if(item.tool == "") {
+						        console.log("No tools available");
+					        }
+					        
+					        else {
+						        console.log('Tool available');
+						        console.log(item);
+					        }
+					        
+					        
+					    }
+					});					
+								
+				
+				});
+				
+			
+			
+		});
+
+		
+		</script>
+		
+	</body>
+</html>
