@@ -5,9 +5,7 @@
 		"bolts": "4",
 		"boltDiameter": "1/2",
 		"aff": "7/8",
-		"nm": "92",
-		"tool": "",
-		"pumpPressure": "44"
+		"nm": "92"
 	},
 	
 	{
@@ -16,9 +14,7 @@
 		"bolts": "4",
 		"boltDiameter": "1/2",
 		"aff": "7/8",
-		"nm": "92",
-		"tool": "",
-		"pumpPressure": "44"
+		"nm": "92"
 	},
 	
 	
@@ -28,9 +24,7 @@
 		"bolts": "8",
 		"boltDiameter": "1/2",
 		"aff": "7/8",
-		"nm": "92",
-		"tool": "",
-		"pumpPressure": "44"
+		"nm": "92"
 	},
 	
 	{
@@ -39,9 +33,7 @@
 		"bolts": "8",
 		"boltDiameter": "5/8",
 		"aff": "1 1/16",
-		"nm": "183",
-		"tool": "",
-		"pumpPressure": "71"
+		"nm": "183"
 	},
 	
 	{
@@ -50,9 +42,7 @@
 		"bolts": "8",
 		"boltDiameter": "5/8",
 		"aff": "1 1/16",
-		"nm": "183",
-		"tool": "",
-		"pumpPressure": "71"
+		"nm": "183"
 	},
 
 	{
@@ -61,9 +51,7 @@
 		"bolts": "8",
 		"boltDiameter": "3/4",
 		"aff": "1 1/4",
-		"nm": "323",
-		"tool": "",
-		"pumpPressure": "106"
+		"nm": "323"
 	},
 
 	{
@@ -72,9 +60,7 @@
 		"bolts": "12",
 		"boltDiameter": "3/4",
 		"aff": "1 1/4",
-		"nm": "323",
-		"tool": "",
-		"pumpPressure": "106"
+		"nm": "323"
 	},
 
 	{
@@ -88,13 +74,8 @@
 				{ 
 					"name": "Stealth 2",
 					"pressure": "2319"
-				},
-				{
-					"name": "XLCT 2",
-					"pressure": "2230"
 				}
-			],
-		"pumpPressure": "147"
+			]
 	},
 
 	{
@@ -108,13 +89,8 @@
 				{ 
 					"name": "Stealth 2",
 					"pressure": "4873"
-				},
-				{
-					"name": "XLCT 2",
-					"pressure": "4917"
 				}
-			],
-		"pumpPressure": "255"
+			]
 	},
 
 	{
@@ -128,13 +104,8 @@
 				{ 
 					"name": "Stealth 2",
 					"pressure": "6692"
-				},
-				{
-					"name": "XLCT 2",
-					"pressure": "6891"
 				}
-			],
-		"pumpPressure": "325"
+			]
 	},
 	
 	{
@@ -148,13 +119,8 @@
 				{ 
 					"name": "Stealth 4",
 					"pressure": "5249"
-				},
-				{
-					"name": "XLCT 2",
-					"pressure": "5428"
 				}
-			],
-		"pumpPressure": "492"
+			]
 	},
 	
 	{
@@ -168,13 +134,8 @@
 				{ 
 					"name": "Stealth 4",
 					"pressure": "6731"
-				},
-				{
-					"name": "XLCT 4",
-					"pressure": "7001"
 				}
-			],
-		"pumpPressure": "589"
+			]
 	},
 
 	{
@@ -188,13 +149,8 @@
 				{ 
 					"name": "Stealth 8",
 					"pressure": "5268"
-				},
-				{
-					"name": "XLCT 8",
-					"pressure": "5263"
 				}
-			],
-		"pumpPressure": "807"
+			]
 	},
 
 	{
@@ -208,13 +164,8 @@
 				{ 
 					"name": "Stealth 14",
 					"pressure": "6432"
-				},
-				{
-					"name": "XLCT 8",
-					"pressure": "6410"
 				}
-			],
-		"pumpPressure": "929"
+			]
 	},
 
 	{
@@ -228,13 +179,8 @@
 				{ 
 					"name": "Stealth 14",
 					"pressure": "5259"
-				},
-				{
-					"name": "XLCT 14",
-					"pressure": "5564"
 				}
-			],
-		"pumpPressure": "1199"
+			]
 	},
 
 	{
@@ -248,13 +194,8 @@
 				{ 
 					"name": "Stealth 14",
 					"pressure": "7264"
-				},
-				{
-					"name": "XLCT 14",
-					"pressure": "7708"
 				}
-			],
-		"pumpPressure": "1503"
+			]
 	},
 	
 	{
@@ -268,13 +209,8 @@
 				{ 
 					"name": "Stealth 14",
 					"pressure": "8807"
-				},
-				{
-					"name": "XLCT 14",
-					"pressure": "3945"
 				}
-			],
-		"pumpPressure": "1667"
+			]
 	},
 	
 	{
@@ -288,13 +224,8 @@
 				{ 
 					"name": "Stealth 22",
 					"pressure": "7499"
-				},
-				{
-					"name": "XLCT 30",
-					"pressure": "5154"
 				}
-			],
-		"pumpPressure": "2004"
+			]
 	},
 
 	{
@@ -308,13 +239,8 @@
 				{ 
 					"name": "Stealth 36",
 					"pressure": "7587"
-				},
-				{
-					"name": "XLCT 30",
-					"pressure": "6590"
 				}
-			],
-		"pumpPressure": "2773"
+			]
 	}
 
 
